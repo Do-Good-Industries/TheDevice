@@ -7,8 +7,7 @@
     body {
       margin: 0;
       padding: 0;
-      background: url('https://i.imgur.com/9fplPzG.jpg') no-repeat center center fixed;
-      background-size: cover;
+      background: #b58b4c; /* Wooden table colour */
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
@@ -17,10 +16,10 @@
       width: 800px;
       height: 500px;
       margin: 100px auto;
-      background: #333;
-      border: 8px solid #777;
+      background: #444; /* Box colour */
+      border: 8px solid #555;
       border-radius: 10px;
-      box-shadow: 0 0 30px rgba(0,0,0,0.7);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
       overflow: hidden;
     }
 
@@ -37,9 +36,9 @@
     }
 
     .keypad button {
-      background: #444;
+      background: #555;
       border: none;
-      colour: white;
+      color: white;
       font-size: 20px;
       border-radius: 5px;
       cursor: pointer;
@@ -47,7 +46,7 @@
     }
 
     .keypad button:hover {
-      background: #666;
+      background: #777;
     }
 
     .display {
@@ -55,7 +54,7 @@
       top: 20px;
       left: 20px;
       background: black;
-      colour: #0f0;
+      color: #0f0;
       font-size: 24px;
       padding: 10px 20px;
       border-radius: 8px;
